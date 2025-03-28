@@ -1,0 +1,33 @@
+# === JetBrains (CLion) ===
+.idea/
+*.iml
+
+# === CMake build ===
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+compile_commands.json
+
+# === Build artifacts ===
+*.o
+*.obj
+*.exe
+*.out
+*.so
+*.a
+*.dll
+
+# === CLion logs ===
+clion-log.txt
+
+# === User-specific files ===
+*.swp
+*.swo
+*.DS_Store
+*.directory
+
+# === Backup files ===
+*~
+*.bak
